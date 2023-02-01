@@ -1,0 +1,33 @@
+//Mitali.java
+
+package com.mm;
+
+public class Mitali {
+	
+	public static String makeItLower(String data)
+	{
+		return data.toLowerCase();
+	}
+
+}
+
+================
+
+index.jsp
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ page import = "com.mm.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+let's have fun: <%= com.mm.Mitali.makeItLower("FUN FUN FUN") %>
+		//expressio tag
+
+</body>
+</html>
